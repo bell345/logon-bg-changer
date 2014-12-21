@@ -33,45 +33,45 @@
             // labelProductName
             // 
             this.labelProductName.Font = new System.Drawing.Font("Franklin Gothic Book", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProductName.Location = new System.Drawing.Point(12, 14);
+            this.labelProductName.Location = new System.Drawing.Point(12, 12);
             this.labelProductName.Name = "labelProductName";
-            this.labelProductName.Size = new System.Drawing.Size(192, 20);
+            this.labelProductName.Size = new System.Drawing.Size(192, 17);
             this.labelProductName.TabIndex = 0;
             this.labelProductName.Text = "Product Name";
             // 
             // labelVersion
             // 
             this.labelVersion.Font = new System.Drawing.Font("Franklin Gothic Book", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVersion.Location = new System.Drawing.Point(12, 34);
+            this.labelVersion.Location = new System.Drawing.Point(12, 29);
             this.labelVersion.Name = "labelVersion";
-            this.labelVersion.Size = new System.Drawing.Size(192, 20);
+            this.labelVersion.Size = new System.Drawing.Size(192, 17);
             this.labelVersion.TabIndex = 1;
             this.labelVersion.Text = "Version";
             // 
             // labelCompanyName
             // 
             this.labelCompanyName.Font = new System.Drawing.Font("Franklin Gothic Book", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelCompanyName.Location = new System.Drawing.Point(12, 74);
+            this.labelCompanyName.Location = new System.Drawing.Point(12, 63);
             this.labelCompanyName.Name = "labelCompanyName";
-            this.labelCompanyName.Size = new System.Drawing.Size(192, 20);
+            this.labelCompanyName.Size = new System.Drawing.Size(192, 17);
             this.labelCompanyName.TabIndex = 3;
             this.labelCompanyName.Text = "Company Name";
             // 
             // textBoxDescription
             // 
-            this.textBoxDescription.Location = new System.Drawing.Point(12, 97);
+            this.textBoxDescription.Location = new System.Drawing.Point(12, 83);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.ReadOnly = true;
-            this.textBoxDescription.Size = new System.Drawing.Size(192, 99);
+            this.textBoxDescription.Size = new System.Drawing.Size(192, 86);
             this.textBoxDescription.TabIndex = 4;
             this.textBoxDescription.Text = "Description";
             // 
             // buttonOK
             // 
-            this.buttonOK.Location = new System.Drawing.Point(129, 202);
+            this.buttonOK.Location = new System.Drawing.Point(129, 175);
             this.buttonOK.Name = "buttonOK";
-            this.buttonOK.Size = new System.Drawing.Size(75, 23);
+            this.buttonOK.Size = new System.Drawing.Size(75, 24);
             this.buttonOK.TabIndex = 5;
             this.buttonOK.Text = "OK";
             this.buttonOK.UseVisualStyleBackColor = true;
@@ -79,9 +79,10 @@
             // 
             // linkCopyright
             // 
-            this.linkCopyright.Location = new System.Drawing.Point(12, 54);
+            this.linkCopyright.Font = new System.Drawing.Font("Franklin Gothic Book", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkCopyright.Location = new System.Drawing.Point(12, 46);
             this.linkCopyright.Name = "linkCopyright";
-            this.linkCopyright.Size = new System.Drawing.Size(192, 20);
+            this.linkCopyright.Size = new System.Drawing.Size(192, 17);
             this.linkCopyright.TabIndex = 6;
             this.linkCopyright.TabStop = true;
             this.linkCopyright.Text = "Copyright";
@@ -89,9 +90,10 @@
             // 
             // About
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
+            this.AcceptButton = this.buttonOK;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(216, 233);
+            this.ClientSize = new System.Drawing.Size(216, 206);
             this.Controls.Add(this.linkCopyright);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.textBoxDescription);
@@ -102,7 +104,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "About";
-            this.Padding = new System.Windows.Forms.Padding(9, 10, 9, 10);
+            this.Padding = new System.Windows.Forms.Padding(9, 9, 9, 9);
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

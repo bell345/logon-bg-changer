@@ -11,7 +11,6 @@ namespace LogonBGChanger2 {
     partial class About: Form {
         public About() {
             InitializeComponent();
-            this.Text = String.Format("About {0}", AssemblyTitle);
             this.labelProductName.Text = AssemblyProduct;
             this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
             this.linkCopyright.Text = AssemblyCopyright;

@@ -31,18 +31,18 @@
             // textBoxDescription
             // 
             this.textBoxDescription.HideSelection = false;
-            this.textBoxDescription.Location = new System.Drawing.Point(13, 12);
+            this.textBoxDescription.Location = new System.Drawing.Point(13, 10);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.ReadOnly = true;
             this.textBoxDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxDescription.Size = new System.Drawing.Size(199, 213);
+            this.textBoxDescription.Size = new System.Drawing.Size(199, 185);
             this.textBoxDescription.TabIndex = 0;
             this.textBoxDescription.Text = resources.GetString("textBoxDescription.Text");
             // 
             // buttonOK
             // 
-            this.buttonOK.Location = new System.Drawing.Point(137, 231);
+            this.buttonOK.Location = new System.Drawing.Point(137, 200);
             this.buttonOK.Name = "buttonOK";
             this.buttonOK.Size = new System.Drawing.Size(75, 23);
             this.buttonOK.TabIndex = 1;
@@ -52,13 +52,18 @@
             // 
             // License
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 15F);
+            this.AcceptButton = this.buttonOK;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(224, 262);
+            this.ClientSize = new System.Drawing.Size(224, 232);
             this.Controls.Add(this.buttonOK);
             this.Controls.Add(this.textBoxDescription);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "License";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "License";
             this.ResumeLayout(false);
             this.PerformLayout();
