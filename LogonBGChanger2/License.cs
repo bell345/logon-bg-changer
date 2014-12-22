@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace LogonBGChanger2 {
-    public partial class License: Form {
+    partial class License: Form {
         public License() {
             InitializeComponent();
             textBoxDescription.Select(0, 0);

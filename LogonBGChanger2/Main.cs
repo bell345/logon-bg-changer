@@ -11,8 +11,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 
 namespace LogonBGChanger2 {
-    public partial class Main: Form {
-
+    partial class Main: Form {
         private static RegistryKey BaseKey;
         private const string BGREGKEY = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\Background";
         private const string BGPATH = @"C:\Windows\System32\oobe\info\backgrounds\";
@@ -92,7 +91,6 @@ namespace LogonBGChanger2 {
                 return;
                 #endregion
             }
-
             try {
                 subKey.SetValue("OEMBackground", value);
                 #region Error handling
