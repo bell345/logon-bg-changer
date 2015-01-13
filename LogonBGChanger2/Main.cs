@@ -28,8 +28,8 @@ namespace LogonBGChanger2 {
         private static void SetErrorReasons() {
             ErrReasons["ArgumentNullException"] = "because it has a null argument.";
             ErrReasons["ArgumentException"] = "because it has a badly formed argument.";
-            ErrReasons["DirectoryNotFoundException"] = "beacuse it cannot find a directory.";
-            ErrReasons["FileNotFoundException"] = "beacuse it cannot find the file.";
+            ErrReasons["DirectoryNotFoundException"] = "because it cannot find a directory.";
+            ErrReasons["FileNotFoundException"] = "because it cannot find the file.";
             ErrReasons["IOException"] = "because it has encountered an error.";
             ErrReasons["NotSupportedException"] = "because it has encountered an error.";
             ErrReasons["PathTooLongException"] = "as the file name is too long for the system to handle.";
@@ -201,7 +201,7 @@ namespace LogonBGChanger2 {
                 return;
             }
 
-            ooe = "cannot replace the currrent background";
+            ooe = "cannot replace the current background";
             try {
                 if (File.Exists(BGFILE)) File.Delete(BGFILE);
                 #region Error handling
